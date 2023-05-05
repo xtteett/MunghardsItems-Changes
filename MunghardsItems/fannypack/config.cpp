@@ -2,7 +2,7 @@
 //DeRap: fannypack\config.bin
 //Produced from mikero's Dos Tools Dll version 9.10
 //https://mikero.bytex.digital/Downloads
-//'now' is Fri May 05 16:13:28 2023 : 'file' last modified on Wed Feb 15 06:58:36 2023
+//'now' is Wed May 03 18:39:42 2023 : 'file' last modified on Wed Feb 15 06:58:36 2023
 ////////////////////////////////////////////////////////////////////
 
 #define _ARMA_
@@ -127,13 +127,13 @@ class CfgSlots
 	class Slot_hatchet
 	{
 		name = "hatchet";
-		displayName = "leftside";
-		ghostIcon = "default";
+		displayName = "Hatchet";
+		ghostIcon = "set:mung_inventory image:hatchet";
 	};
 	class Slot_machete
 	{
 		name = "machete";
-		displayName = "rightside";
-		ghostIcon = "default";
+		displayName = "Machete";
+		ghostIcon = "set:mung_inventory image:machete";
 	};
 };

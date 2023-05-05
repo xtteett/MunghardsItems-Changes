@@ -2,7 +2,7 @@
 //DeRap: csmcmillan\config.bin
 //Produced from mikero's Dos Tools Dll version 9.10
 //https://mikero.bytex.digital/Downloads
-//'now' is Fri May 05 16:13:28 2023 : 'file' last modified on Wed Feb 15 06:58:31 2023
+//'now' is Wed May 03 18:39:41 2023 : 'file' last modified on Wed Feb 15 06:58:31 2023
 ////////////////////////////////////////////////////////////////////
 
 #define _ARMA_
@@ -388,7 +388,7 @@ class CfgSlots
 	class Slot_buttstock_mcmillan
 	{
 		name = "buttstock_mcmillan";
-		displayName = "buttstock";
-		ghostIcon = "buttstock";
+		displayName = "Buttstock";
+		ghostIcon="set:dayz_inventory image:buttstock";
 	};
 };

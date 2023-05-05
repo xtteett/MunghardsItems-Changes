@@ -1,0 +1,92 @@
+ImageSetClass {
+ Name "mung_inventory"
+ RefSize 512 512
+ Textures {
+  ImageSetTextureClass {
+   mpix 1
+   path "{25D55D8D187FF2EA}MunghardsItems/gui/imagesets/mung_inventory.edds"
+  }
+ }
+ Images {
+  ImageSetDefClass ammobox {
+   Name "ammobox"
+   Pos 0 0
+   Size 128 128
+   Flags 0
+  }
+  ImageSetDefClass binoculars {
+   Name "binoculars"
+   Pos 128 0
+   Size 128 128
+   Flags 0
+  }
+  ImageSetDefClass compass {
+   Name "compass"
+   Pos 256 0
+   Size 128 128
+   Flags 0
+  }
+  ImageSetDefClass firstaidkit {
+   Name "firstaidkit"
+   Pos 384 0
+   Size 128 128
+   Flags 0
+  }
+  ImageSetDefClass fishingpole {
+   Name "fishingpole"
+   Pos 0 128
+   Size 128 128
+   Flags 0
+  }
+  ImageSetDefClass case {
+   Name "case"
+   Pos 128 128
+   Size 128 128
+   Flags 0
+  }
+  ImageSetDefClass tent {
+   Name "tent"
+   Pos 256 128
+   Size 128 128
+   Flags 0
+  }
+  ImageSetDefClass teddybear {
+   Name "teddybear"
+   Pos 384 128
+   Size 128 128
+   Flags 0
+  }
+  ImageSetDefClass hatchet {
+   Name "hatchet"
+   Pos 0 256
+   Size 128 128
+   Flags 0
+  }
+  ImageSetDefClass machete {
+   Name "machete"
+   Pos 128 256
+   Size 128 128
+   Flags 0
+  }
+  ImageSetDefClass gasburner {
+   Name "gasburner"
+   Pos 256 256
+   Size 128 128
+   Flags 0
+  }
+  ImageSetDefClass gascanister {
+   Name "gascanister"
+   Pos 384 256
+   Size 128 128
+   Flags 0
+  }
+  ImageSetDefClass waterproofbag {
+   Name "waterproofbag"
+   Pos 0 384
+   Size 128 128
+   Flags 0
+  }
+ }
+ Groups {
+ }
+}

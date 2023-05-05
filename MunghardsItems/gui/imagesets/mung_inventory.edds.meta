@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{25D55D8D187FF2EA}MunghardsItems/gui/imagesets/mung_inventory.png"
+ Author "desktop-bbajspt"
+ ChangeDate 1847864997
+ Configurations {
+  PAAResourceClass PC {
+   SourceFile "mung_inventory.paa"
+  }
+  PAAResourceClass XBOX_ONE : PC {
+  }
+  PAAResourceClass PS4 : PC {
+  }
+  PAAResourceClass LINUX : PC {
+  }
+ }
+}

@@ -2,7 +2,7 @@
 //DeRap: hikingbag\config.bin
 //Produced from mikero's Dos Tools Dll version 9.10
 //https://mikero.bytex.digital/Downloads
-//'now' is Fri May 05 16:13:28 2023 : 'file' last modified on Wed Feb 15 06:58:42 2023
+//'now' is Wed May 03 18:39:42 2023 : 'file' last modified on Wed Feb 15 06:58:42 2023
 ////////////////////////////////////////////////////////////////////
 
 #define _ARMA_
@@ -258,43 +258,49 @@ class CfgSlots
 	class Slot_flashlight
 	{
 		name[] = {"flashlight","MassFlashlight"};
-		displayName = "flashlight";
-		ghostIcon = "flashlight";
+		displayName = "Flashlight";
+		ghostIcon = "set:dayz_inventory image:weaponflashlight";
 	};
 	class Slot_binocular
 	{
 		name = "binocular";
-		displayName = "binocular";
-		ghostIcon = "opticacog";
+		displayName = "Binoculars";
+		ghostIcon = "set:mung_inventory image:binoculars";
 	};
 	class Slot_GasCooker
 	{
 		name = "GasCooker";
-		displayName = "GasCooker";
-		ghostIcon = "cookingequipment";
+		displayName = "Gas Cooker";
+		ghostIcon = "set:mung_inventory image:gasburner";
 	};
 	class Slot_compass
 	{
 		name = "Compass";
 		displayName = "Compass";
-		ghostIcon = "default";
+		ghostIcon = "set:mung_inventory image:compass";
 	};
 	class Slot_tent
 	{
 		name = "tent";
-		displayName = "tent";
-		ghostIcon = "back";
+		displayName = "Tent";
+		ghostIcon = "set:mung_inventory image:tent";
 	};
-	class Slot_FirstAid
+	class Slot_FirstAidKit
 	{
 		name = "firstaidkit";
-		displayName = "firstaidkit";
-		ghostIcon = "hips";
+		displayName = "First Aid Kit";
+		ghostIcon = "set:mung_inventory image:firstaidkit";
 	};
 	class Slot_waterproofbag
 	{
 		name = "waterproofbag";
-		displayName = "waterproofbag";
-		ghostIcon = "pouches";
+		displayName = "Waterproof Bag";
+		ghostIcon = "set:mung_inventory image:waterproofbag";
+	};
+	class Slot_fishingpole
+	{
+		name = "fishingpole";
+		displayName = "Fishing Rod";
+		ghostIcon = "set:mung_inventory image:fishingpole";
 	};
 };

@@ -2,7 +2,7 @@
 //DeRap: gunwall\config.bin
 //Produced from mikero's Dos Tools Dll version 9.10
 //https://mikero.bytex.digital/Downloads
-//'now' is Fri May 05 16:13:28 2023 : 'file' last modified on Wed Feb 15 06:58:39 2023
+//'now' is Wed May 03 18:39:42 2023 : 'file' last modified on Wed Feb 15 06:58:39 2023
 ////////////////////////////////////////////////////////////////////
 
 #define _ARMA_
@@ -180,50 +180,43 @@ class CfgSlots
 	class Slot_Gun1
 	{
 		name = "shoulder1";
-		displayName = "shoulder1";
-		ghostIcon = "hips";
-		selection = "shoulder1";
+		displayName = "Weapon";
+		ghostIcon = "set:dayz_inventory image:shoulder";
 	};
 	class Slot_Gun2
 	{
 		name = "shoulder2";
-		displayName = "shoulder2";
-		ghostIcon = "hips";
-		selection = "shoulder2";
+		displayName = "Weapon";
+		ghostIcon = "set:dayz_inventory image:shoulder";
 	};
 	class Slot_Gun3
 	{
 		name = "shoulder3";
-		displayName = "shoulder3";
-		ghostIcon = "hips";
-		selection = "shoulder3";
+		displayName = "Weapon";
+		ghostIcon = "set:dayz_inventory image:shoulder";
 	};
 	class Slot_Gun4
 	{
 		name = "shoulder4";
-		displayName = "shoulder4";
-		ghostIcon = "hips";
-		selection = "shoulder4";
+		displayName = "Weapon";
+		ghostIcon = "set:dayz_inventory image:shoulder";
 	};
 	class Slot_Gun5
 	{
 		name = "shoulder5";
-		displayName = "shoulder5";
-		ghostIcon = "hips";
-		selection = "shoulder5";
+		displayName = "Weapon";
+		ghostIcon = "set:dayz_inventory image:shoulder";
 	};
 	class Slot_Gun6
 	{
 		name = "shoulder6";
-		displayName = "shoulder6";
-		ghostIcon = "hips";
-		selection = "shoulder6";
+		displayName = "Weapon";
+		ghostIcon = "set:dayz_inventory image:shoulder";
 	};
 	class Slot_Gun7
 	{
 		name = "shoulder7";
-		displayName = "shoulder7";
-		ghostIcon = "hips";
-		selection = "shoulder7";
+		displayName = "Weapon";
+		ghostIcon = "set:dayz_inventory image:shoulder";
 	};
 };

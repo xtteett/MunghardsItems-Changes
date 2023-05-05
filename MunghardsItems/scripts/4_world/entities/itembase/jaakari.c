@@ -1,4 +1,4 @@
-class bag_6B38_Colorbase_mung extends Clothing
+class jaakari_Colorbase_mung extends Clothing
 {
     override bool CanPutInCargo( EntityAI parent )
     {

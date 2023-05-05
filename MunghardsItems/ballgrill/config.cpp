@@ -2,7 +2,7 @@
 //DeRap: ballgrill\config.bin
 //Produced from mikero's Dos Tools Dll version 9.10
 //https://mikero.bytex.digital/Downloads
-//'now' is Fri May 05 16:13:28 2023 : 'file' last modified on Wed Feb 15 06:58:24 2023
+//'now' is Wed May 03 18:39:41 2023 : 'file' last modified on Wed Feb 15 06:58:24 2023
 ////////////////////////////////////////////////////////////////////
 
 #define _ARMA_
@@ -114,8 +114,7 @@ class CfgSlots
 	class Slot_kv5
 	{
 		name = "GasCanister";
-		displayName = "GasCanister";
-		selection = "kv5";
-		ghostIcon = "missing";
+		displayName = "Gas Canister";
+		ghostIcon="set:dayz_inventory image:gascanister";
 	};
 };

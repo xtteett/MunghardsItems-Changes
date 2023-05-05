@@ -2,7 +2,7 @@
 //DeRap: 6B38\config.bin
 //Produced from mikero's Dos Tools Dll version 9.10
 //https://mikero.bytex.digital/Downloads
-//'now' is Fri May 05 16:13:28 2023 : 'file' last modified on Wed Feb 15 06:58:23 2023
+//'now' is Wed May 03 18:39:41 2023 : 'file' last modified on Wed Feb 15 06:58:23 2023
 ////////////////////////////////////////////////////////////////////
 
 #define _ARMA_
@@ -76,7 +76,7 @@ class CfgVehicles
 				class Health
 				{
 					hitpoints = 100;
-					healthLevels[] = {{1.0,{"MunghardsItems\6B38\data\raidbackpack_6B38.rvmat"}},{0.7,{"MunghardsItems\6B38\data\raidbackpack_6B38.rvmat"}},{0.5,{"MunghardsItems\6B38\data\raidbackpack_6B38.rvmat"}},{0.3,{"MunghardsItems\6B38\data\raidbackpack_6B38.rvmat"}},{0.0,{"MunghardsItems\6B38\data\raidbackpack_6B38.rvmat"}}};
+					healthLevels[] = {{1.0,{"MunghardsItems\6B38\data\raidbackpack_6B38.rvmat"}},{0.7,{"MunghardsItems\6B38\data\raidbackpack_6B38.rvmat"}},{0.5,{"MunghardsItems\6B38\data\raidbackpack_6B38_damaged.rvmat"}},{0.3,{"MunghardsItems\6B38\data\raidbackpack_6B38_damaged.rvmat"}},{0.0,{"MunghardsItems\6B38\data\raidbackpack_6B38_destroyed.rvmat"}}};
 				};
 			};
 		};
@@ -115,20 +115,20 @@ class CfgSlots
 	class Slot_flashlight
 	{
 		name[] = {"flashlight","MassFlashlight"};
-		displayName = "flashlight";
-		ghostIcon = "flashlight";
+		displayName = "Flashlight";
+		ghostIcon = "set:dayz_inventory image:weaponflashlight";
 	};
 	class Slot_binocular
 	{
 		name = "binocular";
-		displayName = "binocular";
-		ghostIcon = "opticacog";
+		displayName = "Binoculars";
+		ghostIcon = "set:mung_inventory image:binoculars";
 	};
-	class Slot_ammobox
+	class Slot_300roundbox
 	{
 		name = "300roundbox";
-		displayName = "300roundbox";
-		ghostIcon = "hips";
+		displayName = "Ammo Box";
+		ghostIcon = "set:mung_inventory image:ammobox";
 	};
 };
 class CfgNonAIVehicles

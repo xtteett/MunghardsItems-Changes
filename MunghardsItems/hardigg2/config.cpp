@@ -2,7 +2,7 @@
 //DeRap: hardigg2\config.bin
 //Produced from mikero's Dos Tools Dll version 9.10
 //https://mikero.bytex.digital/Downloads
-//'now' is Fri May 05 16:13:28 2023 : 'file' last modified on Wed Feb 15 06:58:41 2023
+//'now' is Wed May 03 18:39:42 2023 : 'file' last modified on Wed Feb 15 06:58:41 2023
 ////////////////////////////////////////////////////////////////////
 
 #define _ARMA_
@@ -158,14 +158,12 @@ class CfgSlots
 	{
 		name = "shoulder1";
 		displayName = "shoulder1";
-		ghostIcon = "hips";
-		selection = "shoulder1";
+		ghostIcon = "set:dayz_inventory image:shoulder";
 	};
 	class Slot_Gun2
 	{
 		name = "shoulder2";
 		displayName = "shoulder2";
-		ghostIcon = "hips";
-		selection = "shoulder2";
+		ghostIcon = "set:dayz_inventory image:shoulder";
 	};
 };

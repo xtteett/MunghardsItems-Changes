@@ -2,7 +2,7 @@
 //DeRap: config.bin
 //Produced from mikero's Dos Tools Dll version 9.10
 //https://mikero.bytex.digital/Downloads
-//'now' is Fri May 05 16:13:30 2023 : 'file' last modified on Wed Feb 15 06:58:31 2023
+//'now' is Wed May 03 18:39:44 2023 : 'file' last modified on Wed Feb 15 06:58:31 2023
 ////////////////////////////////////////////////////////////////////
 
 #define _ARMA_
@@ -51,6 +51,13 @@ class CfgMods
 				value = "";
 				files[] = {"MunghardsItems/scripts/5_Mission"};
 			};
+			class imageSets
+            {
+                files[]=
+                {
+                    "MunghardsItems/gui/imagesets/mung_inventory.imageset"
+                };
+            };
 		};
 	};
 };

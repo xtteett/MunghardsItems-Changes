@@ -2,7 +2,7 @@
 //DeRap: simplebackpack\config.bin
 //Produced from mikero's Dos Tools Dll version 9.10
 //https://mikero.bytex.digital/Downloads
-//'now' is Fri May 05 16:13:30 2023 : 'file' last modified on Wed Feb 15 06:59:08 2023
+//'now' is Wed May 03 18:39:43 2023 : 'file' last modified on Wed Feb 15 06:59:08 2023
 ////////////////////////////////////////////////////////////////////
 
 #define _ARMA_
@@ -137,13 +137,13 @@ class CfgSlots
 	class Slot_teddy
 	{
 		name = "teddy";
-		displayName = "teddy";
-		ghostIcon = "pouches";
+		displayName = "Teddy Bear";
+		ghostIcon = "set:mung_inventory image:teddybear";
 	};
 	class Slot_protectorcase
 	{
 		name = "protectorcase";
-		displayName = "protectorcase";
-		ghostIcon = "pouches";
+		displayName = "Protector Case";
+		ghostIcon = "set:mung_inventory image:case";
 	};
 };

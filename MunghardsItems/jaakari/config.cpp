@@ -2,7 +2,7 @@
 //DeRap: jaakari\config.bin
 //Produced from mikero's Dos Tools Dll version 9.10
 //https://mikero.bytex.digital/Downloads
-//'now' is Fri May 05 16:13:29 2023 : 'file' last modified on Wed Feb 15 06:58:44 2023
+//'now' is Wed May 03 18:39:42 2023 : 'file' last modified on Wed Feb 15 06:58:44 2023
 ////////////////////////////////////////////////////////////////////
 
 #define _ARMA_
@@ -72,7 +72,7 @@ class CfgVehicles
 				class Health
 				{
 					hitpoints = 100;
-					healthLevels[] = {{1.0,{"MunghardsItems\jaakari\data\raidbackpack_jaakari.rvmat"}},{0.7,{"MunghardsItems\jaakari\data\raidbackpack_jaakari.rvmat"}},{0.5,{"MunghardsItems\jaakari\data\raidbackpack_jaakari.rvmat"}},{0.3,{"MunghardsItems\jaakari\data\raidbackpack_jaakari.rvmat"}},{0.0,{"MunghardsItems\jaakari\data\raidbackpack_jaakari.rvmat"}}};
+					healthLevels[] = {{1.0,{"MunghardsItems\jaakari\data\jaakari.rvmat"}},{0.7,{"MunghardsItems\jaakari\data\jaakari.rvmat"}},{0.5,{"MunghardsItems\jaakari\data\jaakari_damaged.rvmat"}},{0.3,{"MunghardsItems\jaakari\data\jaakari_damaged.rvmat"}},{0.0,{"MunghardsItems\jaakari\data\jaakari_destroyed.rvmat"}}};
 				};
 			};
 		};
