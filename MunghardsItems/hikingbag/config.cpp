@@ -1,12 +1,3 @@
-////////////////////////////////////////////////////////////////////
-//DeRap: hikingbag\config.bin
-//Produced from mikero's Dos Tools Dll version 9.10
-//https://mikero.bytex.digital/Downloads
-//'now' is Wed May 03 18:39:42 2023 : 'file' last modified on Wed Feb 15 06:58:42 2023
-////////////////////////////////////////////////////////////////////
-
-#define _ARMA_
-
 class CfgPatches
 {
 	class Munghardshikingbag
