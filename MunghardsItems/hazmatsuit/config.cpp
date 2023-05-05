@@ -62,6 +62,17 @@ class CfgVehicles
 		rotationFlags = 16;
 		headSelectionsToHide[] = {"Clipping_GP5GasMask"};
 		hiddenSelections[] = {"personality"};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints = 300;
+					healthLevels[] = {{1.0,{"MunghardsItems\hazmatsuit\data\hazmatsuit.rvmat"}},{0.7,{"MunghardsItems\hazmatsuit\data\hazmatsuit.rvmat"}},{0.5,{"MunghardsItems\hazmatsuit\data\hazmatsuit_damaged.rvmat"}},{0.3,{"MunghardsItems\hazmatsuit\data\hazmatsuit_damaged.rvmat"}},{0.0,{"MunghardsItems\hazmatsuit\data\hazmatsuit_destroyed.rvmat"}}};
+				};
+			};
+		};
 		class ClothingTypes
 		{
 			male = "\MunghardsItems\hazmatsuit\hazmatsuit_M.p3d";
@@ -74,7 +85,7 @@ class CfgVehicles
 	};
 	class hazmatsuit_legs_mung: Clothing
 	{
-		scope = 2;
+		scope = 0;
 		displayName = "Hazmatsuit";
 		descriptionShort = "Full biological protection with some radiation protection.";
 		model = "\MunghardsItems\hazmatsuit\hazmatsuit_legs.p3d";

@@ -1,12 +1,3 @@
-////////////////////////////////////////////////////////////////////
-//DeRap: poncho\config.bin
-//Produced from mikero's Dos Tools Dll version 9.10
-//https://mikero.bytex.digital/Downloads
-//'now' is Fri May 05 16:13:29 2023 : 'file' last modified on Wed Feb 15 06:58:58 2023
-////////////////////////////////////////////////////////////////////
-
-#define _ARMA_
-
 class CfgPatches
 {
 	class Munghardsponcho
@@ -60,6 +51,17 @@ class CfgVehicles
 		hiddenSelections[] = {"zbytek"};
 		hiddenSelectionsTextures[] = {"MunghardsItems\poncho\data\poncho_co.paa"};
 		hiddenSelectionsMaterials[] = {"MunghardsItems\poncho\data\poncho.rvmat"};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints = 200;
+					healthLevels[] = {{1.0,{"MunghardsItems\poncho\data\poncho.rvmat"}},{0.7,{"MunghardsItems\poncho\data\poncho.rvmat"}},{0.5,{"MunghardsItems\poncho\data\poncho_damaged.rvmat"}},{0.3,{"MunghardsItems\poncho\data\poncho_damaged.rvmat"}},{0.0,{"MunghardsItems\poncho\data\poncho_destroyed.rvmat"}}};
+				};
+			};
+		};
 		class ClothingTypes
 		{
 			male = "\MunghardsItems\poncho\poncho.p3d";

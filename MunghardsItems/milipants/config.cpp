@@ -1,12 +1,3 @@
-////////////////////////////////////////////////////////////////////
-//DeRap: milipants\config.bin
-//Produced from mikero's Dos Tools Dll version 9.10
-//https://mikero.bytex.digital/Downloads
-//'now' is Fri May 05 16:13:29 2023 : 'file' last modified on Wed Feb 15 06:58:53 2023
-////////////////////////////////////////////////////////////////////
-
-#define _ARMA_
-
 class CfgPatches
 {
 	class Munghardsmilipants
@@ -60,6 +51,17 @@ class CfgVehicles
 		repairCosts[] = {30,25};
 		canBeDigged = 1;
 		soundAttType = "Outdoor";
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints = 100;
+					healthLevels[] = {{1.0,{"MunghardsItems\milipants\data\milipants.rvmat"}},{0.7,{"MunghardsItems\milipants\data\milipants.rvmat"}},{0.5,{"MunghardsItems\milipants\data\milipants_damaged.rvmat"}},{0.3,{"MunghardsItems\milipants\data\milipants_damaged.rvmat"}},{0.0,{"MunghardsItems\milipants\data\milipants_destroyed.rvmat"}}};
+				};
+			};
+		};
 		class ClothingTypes
 		{
 			male = "\MunghardsItems\milipants\milipants.p3d";

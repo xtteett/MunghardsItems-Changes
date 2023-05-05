@@ -71,6 +71,17 @@ class CfgVehicles
 		heatIsolation = 0.13;
 		visibilityModifier = 0.7;
 		noMask = 0;
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints = 500;
+					healthLevels[] = {{1.0,{"MunghardsItems\teddyhead\data\teddyhead.rvmat"}},{0.7,{"MunghardsItems\teddyhead\data\teddyhead.rvmat"}},{0.5,{"MunghardsItems\teddyhead\data\teddyhead_damaged.rvmat"}},{0.3,{"MunghardsItems\teddyhead\data\teddyhead_damaged.rvmat"}},{0.0,{"MunghardsItems\teddyhead\data\teddyhead_destroyed.rvmat"}}};
+				};
+			};
+		};
 		class ClothingTypes
 		{
 			male = "\MunghardsItems\teddyhead\teddyhead.p3d";

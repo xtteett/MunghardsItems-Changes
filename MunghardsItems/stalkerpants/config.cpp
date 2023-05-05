@@ -60,6 +60,17 @@ class CfgVehicles
 		repairCosts[] = {30,25};
 		canBeDigged = 1;
 		soundAttType = "Outdoor";
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints = 100;
+					healthLevels[] = {{1.0,{"MunghardsItems\stalkerpants\data\stalkerpants.rvmat"}},{0.7,{"MunghardsItems\stalkerpants\data\stalkerpants.rvmat"}},{0.5,{"MunghardsItems\stalkerpants\data\stalkerpants_damaged.rvmat"}},{0.3,{"MunghardsItems\stalkerpants\data\stalkerpants_damaged.rvmat"}},{0.0,{"MunghardsItems\stalkerpants\data\stalkerpants_destroyed.rvmat"}}};
+				};
+			};
+		};
 		class ClothingTypes
 		{
 			male = "\MunghardsItems\stalkerpants\stalkerpants.p3d";

@@ -67,6 +67,14 @@ class CfgVehicles
 		};
 		class DamageSystem
 		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints = 200;
+					healthLevels[] = {{1.0,{"MunghardsItems\tacticalvest\data\tacticalvest.rvmat"}},{0.7,{"MunghardsItems\tacticalvest\data\tacticalvest.rvmat"}},{0.5,{"MunghardsItems\tacticalvest\data\tacticalvest_damaged.rvmat"}},{0.3,{"MunghardsItems\tacticalvest\data\tacticalvest_damaged.rvmat"}},{0.0,{"MunghardsItems\tacticalvest\data\tacticalvest_destroyed.rvmat"}}};
+				};
+			};
 			class GlobalArmor
 			{
 				class Projectile

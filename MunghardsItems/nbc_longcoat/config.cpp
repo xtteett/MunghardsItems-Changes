@@ -1,12 +1,3 @@
-////////////////////////////////////////////////////////////////////
-//DeRap: nbc_longcoat\config.bin
-//Produced from mikero's Dos Tools Dll version 9.10
-//https://mikero.bytex.digital/Downloads
-//'now' is Fri May 05 16:13:29 2023 : 'file' last modified on Wed Feb 15 06:58:55 2023
-////////////////////////////////////////////////////////////////////
-
-#define _ARMA_
-
 class CfgPatches
 {
 	class Munghardsnbc_longcoat
@@ -68,6 +59,17 @@ class CfgVehicles
 		{
 			male = "\MunghardsItems\nbc_longcoat\nbc_longcoat_M.p3d";
 			female = "\MunghardsItems\nbc_longcoat\nbc_longcoat_F.p3d";
+		};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints = 200;
+					healthLevels[] = {{1.0,{"MunghardsItems\nbc_longcoat\data\nbc_longcoat.rvmat"}},{0.7,{"MunghardsItems\nbc_longcoat\data\nbc_longcoat.rvmat"}},{0.5,{"MunghardsItems\nbc_longcoat\data\nbc_longcoat_damaged.rvmat"}},{0.3,{"MunghardsItems\nbc_longcoat\data\nbc_longcoat_damaged.rvmat"}},{0.0,{"MunghardsItems\nbc_longcoat\data\nbc_longcoat_destroyed.rvmat"}}};
+				};
+			};
 		};
 	};
 	class nbc_longcoat_legs_mung: Clothing
