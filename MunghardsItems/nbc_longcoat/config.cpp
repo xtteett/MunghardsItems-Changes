@@ -61,7 +61,8 @@ class CfgVehicles
 		hiddenSelections[] = {"personality"};
 		class Protection
 		{
-			biological = 0.75;
+			biological=0.25;
+			chemical=1;
 		};
 		class ClothingTypes
 		{
@@ -71,7 +72,7 @@ class CfgVehicles
 	};
 	class nbc_longcoat_legs_mung: Clothing
 	{
-		scope = 2;
+		scope = 0;
 		displayName = "NBC longcoat";
 		descriptionShort = "...";
 		model = "\MunghardsItems\nbc_longcoat\nbc_longcoat_legs.p3d";
