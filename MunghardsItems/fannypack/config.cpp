@@ -46,6 +46,8 @@ class CfgVehicles
 		lootCategory = "Crafted";
 		lootTag[] = {"Civilian"};
 		hiddenSelections[] = {"zbytek"};
+        repairableWithKits[]={5,2};
+        repairCosts[]={30,25};
 		class ClothingTypes
 		{
 			male = "\MunghardsItems\fannypack\fannypack.p3d";
