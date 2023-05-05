@@ -1,69 +1,44 @@
 class hazmatsuit_mung extends Clothing
 {
+	override void OnWasAttached(EntityAI parent, int slot_id)
+	{
+		super.OnWasAttached(parent, slot_id);
+		if(parent.IsPlayer())
+		{
+			HideBodyParts(parent, true);
+		}
+	}
 
+	override void OnWasDetached(EntityAI parent, int slot_id)
+	{
+    	EntityAI newAttachment = parent.GetInventory().FindAttachment(slot_id);
 
-    // override bool CanPutAsAttachment( EntityAI parent )
-    // {
-    //     if ( parent.FindAttachmentBySlotName("Legs") == NULL)
-    //     {
-    //         return true;
-    //     }
-    //     return false;
-    // }
-   
-    // override void OnWasAttached( EntityAI parent, int slot_id )
-    // {
-        
-    //     PlayerBase player = PlayerBase.Cast( GetGame().GetPlayer() );
-    //     if(player)
-    //     {
-    //         player.HideClothing_mung(true);
-    //     }
-    //     // Print(player);
-    //     // parent.FindAttachmentBySlotName("Legs").SetSimpleHiddenSelectionState("personality",!boo);
+    	if (!newAttachment || !newAttachment.IsKindOf("hazmatsuit_mung"))
+    	{
+        	if (parent.IsPlayer())
+        	{
+            	HideBodyParts(parent, false);
+        	}
+    	}
+	}
 
-    //     // int slot_id = parent.InventorySlots.GetSlotIdFromString("Legs");
-    //     // m_CharactersLegs = Legs_Default.Cast(GetInventory().FindPlaceholderForSlot( slot_id ));
-
-    //     // if ( parent.FindAttachmentBySlotName("Legs") == NULL)
-    //     // {
-    //     //     // EntityAI invisPants = parent.GetInventory().CreateAttachment("hazmatsuit_legs_mung");
-            
-    //     // }
-    // }
-
-    // override void OnWasDetached( EntityAI parent, int slot_id )
-    // {
-    //     PlayerBase player = PlayerBase.Cast( GetGame().GetPlayer() );
-    //     if(player)
-    //     {
-    //         player.HideClothing_mung(false);
-    //     }
-    //     // parent.HideClothing_mung().SetInvisibleRecursive(false,this,clothingArray_mung);
-    //     // parent.FindAttachmentBySlotName("Legs").GetHiddenSelectionIndex("personality");
-
-    //     // EntityAI invisPants = parent.GetAttachmentByType(hazmatsuit_legs_mung);
-
-    //     // if (invisPants)
-    //     // {
-    //     //     invisPants.Delete();
-    //     // }
-
-
-    //     //  EntityAI pants = parent.FindAttachmentBySlotName("Legs");
-    //     // if (pants.IsKindOf("hazmatsuit_legs_mung")
-        // {
-        // pants.Delete();     //this properly deletes right? I have an idea for change if not
-        // }
-    // }
-
-};
-
-
-// class hazmatsuit_legs_mung extends Clothing
-// {
-//     override bool CanDetachAttachment (EntityAI parent)
-//     {
-//         return false;
-//     }
-// };
+	void HideBodyParts(PlayerBase player, bool state)
+	{	
+		EntityAI bodypart;
+		int slot_id;
+		//array<string> bodyparts = {"Gloves","Body","Legs","Feet","Head","Hips"};
+		array<string> bodyparts = {"Body","Legs","Hips"};
+				
+	    for ( int i = 0; i < bodyparts.Count(); i++ )
+		{
+			
+			slot_id = InventorySlots.GetSlotIdFromString(bodyparts.Get(i));
+			bodypart = player.GetInventory().FindPlaceholderForSlot( slot_id );
+			
+			if ( bodypart )
+			{
+				bodypart.SetInvisible( state );
+			}
+		}			
+	}
+}
