@@ -149,12 +149,12 @@ class CfgSlots
 	{
 		name = "shoulder1";
 		displayName = "shoulder1";
-		ghostIcon = "set:dayz_inventory image:shoulder";
+		ghostIcon="set:dayz_inventory image:shoulderleft";
 	};
 	class Slot_Gun2
 	{
 		name = "shoulder2";
 		displayName = "shoulder2";
-		ghostIcon = "set:dayz_inventory image:shoulder";
+		ghostIcon="set:dayz_inventory image:shoulderleft";
 	};
 };

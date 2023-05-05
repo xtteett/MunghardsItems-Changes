@@ -168,46 +168,46 @@ class CfgNonAIVehicles
 };
 class CfgSlots
 {
-	class Slot_Gun1
+	class Slot_Shoulder1
 	{
 		name = "shoulder1";
 		displayName = "Weapon";
-		ghostIcon = "set:dayz_inventory image:shoulder";
+		ghostIcon="set:dayz_inventory image:shoulderleft";
 	};
-	class Slot_Gun2
+	class Slot_Shoulder2
 	{
 		name = "shoulder2";
 		displayName = "Weapon";
-		ghostIcon = "set:dayz_inventory image:shoulder";
+		ghostIcon="set:dayz_inventory image:shoulderleft";
 	};
-	class Slot_Gun3
+	class Slot_Shoulder3
 	{
 		name = "shoulder3";
 		displayName = "Weapon";
-		ghostIcon = "set:dayz_inventory image:shoulder";
+		ghostIcon="set:dayz_inventory image:shoulderleft";
 	};
-	class Slot_Gun4
+	class Slot_Shoulder4
 	{
 		name = "shoulder4";
 		displayName = "Weapon";
-		ghostIcon = "set:dayz_inventory image:shoulder";
+		ghostIcon="set:dayz_inventory image:shoulderleft";
 	};
-	class Slot_Gun5
+	class Slot_Shoulder5
 	{
 		name = "shoulder5";
 		displayName = "Weapon";
-		ghostIcon = "set:dayz_inventory image:shoulder";
+		ghostIcon="set:dayz_inventory image:shoulderleft";
 	};
-	class Slot_Gun6
+	class Slot_Shoulder6
 	{
 		name = "shoulder6";
 		displayName = "Weapon";
-		ghostIcon = "set:dayz_inventory image:shoulder";
+		ghostIcon="set:dayz_inventory image:shoulderleft";
 	};
-	class Slot_Gun7
+	class Slot_Shoulder7
 	{
 		name = "shoulder7";
 		displayName = "Weapon";
-		ghostIcon = "set:dayz_inventory image:shoulder";
+		ghostIcon="set:dayz_inventory image:shoulderleft";
 	};
 };
