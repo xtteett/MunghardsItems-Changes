@@ -1,0 +1,5 @@
+Particle {
+ AlbedoMap "{0C179D58272B95FE}system/wbdata/particleeditor/defaulttexture.edds" 
+ Color 1 0.102 0.102 1
+ Emissive 0.9255 0.5804 0.1843 1
+}

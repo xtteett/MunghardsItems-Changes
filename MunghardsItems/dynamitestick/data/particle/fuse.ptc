@@ -1,0 +1,102 @@
+EffectDef {
+ MinFPS 1
+ Emitors {
+  EmitorDef sparks {
+   ShapeType Point
+   ShapeSize 1 1 0
+   ConeAngle 0 0 0
+   MaxNum 1
+   BirthRate 1
+   BirthRateRND 0
+   Offset 0 0.03 0
+   Angles 0 -90 0
+   LocalTransform 1
+   Material "{FF2A8A73FB791A62}graphics/particles/materials/fire/sparks_05.emat"
+   ScaleX 1
+   SizeMultiplier 0.01
+   SizeRND 0.01
+   RandomRotDir 1
+   RotMultiplier 0
+   StretchMultiplier 1
+   RandomAngle 1
+   BillboardingType Full
+   Velocity 0
+   VelocityRND 0
+   AirResistance 0
+   GravityMultiply 0
+   GravityMultiplyRND 0
+   AnimOnce 0
+   AnimFPS 60
+   LifetimeByAnim 0
+   RandomFrame 0
+   LifeTime 10
+   LifeTimeRND 0
+   Color {
+    0 1 1 0.0137 1 1 1 0
+   }
+   Alpha {
+    0 1 1 1
+   }
+   RotationSpeed {
+    0 1 1 1
+   }
+   Size {
+    0 1 1 1
+   }
+   EffectTime 0
+   Repeat 1
+  }
+  EmitorDef sparksflying {
+   ConeAngle 360 0 20
+   MaxNum 500
+   BirthRate 500
+   BirthRateRND 500
+   BirthRateVel 0
+   LocalTransform 1
+   Material "{0B22CDEBF6A47216}graphics/particles/materials/fire/sparks_04.emat"
+   ScaleX 0.12
+   SizeMultiplier 0.02
+   SizeRND 0.02
+   VelAngle 1
+   BillboardingType LockedAxis
+   Velocity 1
+   VelocityRND 1
+   AirResistance 1
+   AirResistanceRND 1
+   GravityMultiply 0
+   GravityMultiplyRND 1
+   LifeTime 0.3
+   Alpha {
+    0 1 1 0
+   }
+   Size {
+    0 1 1 0
+   }
+   EffectTime 1
+  }
+  EmitorDef sparksflying_cloned {
+   ConeAngle 360 0 120
+   MaxNum 20
+   BirthRate 20
+   BirthRateRND 20
+   BirthRateVel 0
+   LocalTransform 1
+   Material "{0B22CDEBF6A47216}graphics/particles/materials/fire/sparks_04.emat"
+   ScaleX 0.12
+   SizeMultiplier 0.02
+   SizeRND 0.02
+   VelAngle 1
+   Velocity 1
+   VelocityRND 1
+   GravityMultiply 1
+   LifeTime 0.3
+   Alpha {
+    0 1 1 0
+   }
+   Size {
+    0 1 1 0
+   }
+   EffectTime 1
+  }
+ }
+}

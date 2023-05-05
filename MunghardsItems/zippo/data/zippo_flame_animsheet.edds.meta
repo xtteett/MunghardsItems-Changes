@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{3B6E53CCED6A2AB0}MunghardsItems/zippo/data/zippo_flame_animsheet.edds"
+ Author "ursula"
+ ChangeDate 746874548
+ Configurations {
+  PAAResourceClass PC {
+   SourceFile "zippo_flame_animsheet.paa"
+  }
+  PAAResourceClass XBOX_ONE : PC {
+  }
+  PAAResourceClass PS4 : PC {
+  }
+  PAAResourceClass LINUX : PC {
+  }
+ }
+}

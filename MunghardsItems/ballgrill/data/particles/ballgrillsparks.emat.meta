@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{38758796C71A7A37}MunghardsItems/ballgrill/data/particles/ballgrillsparks.emat"
+ Author "desktop-tpvggr9"
+ ChangeDate 1146349273
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass LINUX : PC {
+  }
+ }
+}

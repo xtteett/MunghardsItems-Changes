@@ -1,0 +1,7 @@
+Particle {
+ AlbedoMap "{3B6E53CCED6A2AB0}MunghardsItems/zippo/data/zippo_flame_animsheet.edds" 
+ Emissive 0.9529 0.4431 0.0353 1
+ BlendMode Additive_AlphaModulate
+ TileU 3
+ TileV 3
+}

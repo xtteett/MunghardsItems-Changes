@@ -1,0 +1,48 @@
+////////////////////////////////////////////////////////////////////
+//DeRap: joint\data\Sizla.rvmat
+//Produced from mikero's Dos Tools Dll version 9.10
+//https://mikero.bytex.digital/Downloads
+//'now' is Fri May 05 16:13:29 2023 : 'file' last modified on Wed Feb 15 06:58:46 2023
+////////////////////////////////////////////////////////////////////
+
+#define _ARMA_
+
+ambient[] = {0.8509804,0.84705883,0.84313726,0.96};
+diffuse[] = {0.8509804,0.84705883,0.84313726,0.96};
+forcedDiffuse[] = {0,0,0,0};
+emmisive[] = {0,0,0,1};
+specular[] = {0.41568628,0.5764706,0.58431375,0};
+specularPower = 124;
+PixelShaderID = "NormalMapSpecularDIMap";
+VertexShaderID = "NormalMap";
+class Stage0
+{
+	texture = "MunghardsItems\joint\data\Sizla_Co.paa";
+	uvSource = "tex";
+	Filter = "Trilinear";
+};
+class Stage1
+{
+	texture = "MunghardsItems\joint\data\Sizla_no.paa";
+	uvSource = "tex";
+	class uvTransform
+	{
+		aside[] = {1,0,0};
+		up[] = {0,1,0};
+		dir[] = {0,0,1};
+		pos[] = {0,0,0};
+	};
+};
+class Stage2
+{
+	texture = "MunghardsItems\joint\data\sizla_smdi.paa";
+	uvSource = "tex";
+	class uvTransform
+	{
+		aside[] = {1,0,0};
+		up[] = {0,1,0};
+		dir[] = {0,0,1};
+		pos[] = {0,0,0};
+	};
+	Filter = "Trilinear";
+};

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{7101D9C3FF3BB5E3}MunghardsItems/zippo/data/Flame.emat"
+ Author "ursula"
+ ChangeDate 176973492
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass LINUX : PC {
+  }
+ }
+}
