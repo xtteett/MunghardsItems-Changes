@@ -58,7 +58,6 @@ class CfgVehicles
 		heatIsolation = 0.73;
 		repairableWithKits[] = {5,3};
 		repairCosts[] = {30,25};
-		canBeDigged = 0;
 		soundAttType = "Outdoor";
 		hiddenSelections[] = {"zbytek"};
 		hiddenSelectionsTextures[] = {"MunghardsItems\furcowl\data\wolf\furvest_CO.paa"};

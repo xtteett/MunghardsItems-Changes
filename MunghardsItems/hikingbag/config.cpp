@@ -47,7 +47,6 @@ class CfgVehicles
 		heatIsolation = 0.13;
 		repairableWithKits[] = {5,3};
 		repairCosts[] = {30,25};
-		canBeDigged = 1;
 		soundAttType = "Outdoor";
 		attachments[] = {"firstaidkit","binocular","GasCooker","CookingEquipment","Belt_Left","compass","tent","WalkieTalkie","flashlight","waterproofbag","cookingtripod","Chemlight","shoulder","fishingpole"};
 		hiddenSelections[] = {"zbytek","camoground"};
